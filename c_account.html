@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>c_account</title>
+
+	<style type="text/css">
+		.c{
+			width: auto;
+			height:auto;
+			padding-top:1%;
+			border:solid;
+			padding-left: 2%;
+			margin-top: 3%;
+			margin-left: 25%;
+			margin-right: 30%;
+			border-style: circle;
+			border-color:  red;
+			border-radius: 15px;
+			box-shadow: 10px 10px 5px red;
+		}
+		body{
+			background-image: url(111111111111111111111.jpg);
+             background-size: 100%;
+              height: auto;
+              background-repeat: no-repeat;
+		}
+	</style>
+	<script>
+
+  function checkForm(form)
+  {
+    ...
+    if(!form.terms.checked) {
+      alert("Please indicate that you accept the Terms and Conditions");
+      form.terms.focus();
+      return false;
+    }
+    return true;
+  }
+</script>
+</head>
+<body>
+<div>
+	<form class="c">
+		<center><h1><b>Creat Account</b></h1></center>
+		<br>
+		<b>E-mail or Mobile number<b><br>
+		<input type="email" name="email" placeholder="Enter your Email Address"><br>
+		<b>password</b><br>
+		<input type="password" name="password">
+		<br><br>
+		<center>
+		<div style="width:40%;height:auto;border:solid;">
+			<!-- <form ... onsubmit="return checkForm(this);"> -->
+
+<center><p><input type="checkbox" name="terms"> Not a Machine </p></center>
+</form>
+		</div>
+	</center>
+</form>
+<center><p><input type="submit"></p></center>
+	
+</div>
+
+</body>
+</html>
